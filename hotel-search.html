@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>:: Travel & Tourism ::</title>
+    <!-- favicon icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- bootstrap css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- bootsnav css -->
+    <link href="css/bootsnav.css" rel="stylesheet">
+    <!-- font awesome css -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- reset css -->
+    <link href="css/reset.css" rel="stylesheet">
+    <!-- animate css -->
+    <link href="css/animate.css" rel="stylesheet">
+    <!-- themify icon css -->
+    <link href="css/themify-icons.css" rel="stylesheet">
+    <!-- datetime picker css -->
+    <link href="css/bootstrap-material-datetimepicker.css" rel="stylesheet">
+    <!-- select 2 css -->
+    <link href="css/select2.min.css" rel="stylesheet">
+    <!-- owl carousel css -->
+    <link href="owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="owl-carousel/owl.theme.css" rel="stylesheet">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo:400,700" rel="stylesheet">
+    <!-- modernnizr js -->
+    <script src="js/modernizr.js"></script>
+    <!-- custom style css -->
+    <link href="style.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a
+            href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- loader area -->
+<div id="loading"></div>
+<!-- loader area -->
+<!-- header area starts -->
+<header id="header-area" class="inner-header">
+    <!-- topbar area starts -->
+    <div id="top-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="top-bar-left">
+                        <ul>
+                            <li><a href="#"><i class="ti ti-mobile" aria-hidden="true"></i>(+91) 1234567890</a></li>
+                            <li><a href="#"><i class="ti ti-email" aria-hidden="true"></i>demomail@example.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="top-bar-right">
+                        <ul class="account">
+                            <li class="account-list">
+                                <a href="#" class="my-account"><i class="ti-user" aria-hidden="true"></i></a>
+                                <ul class="item">
+                                    <li><a href="#">My Account</a></li>
+                                    <li><a href="#">logout</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li><a href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="ti-google" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- topbar area ends -->
+    <!-- menu area starts -->
+    <div id="menu-area">
+        <!-- Start Navigation -->
+        <nav class="navbar navbar-default brand-center bootsnav">
+            <div class="container">
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand logo-unsticky" href="#"><img src="images/logo-black.png" class="logo" alt=""></a>
+                    <a class="navbar-brand logo-sticky" href="#"><img src="images/logo-small.png" class="logo"
+                                                                      alt=""></a>
+
+                </div>
+                <!-- End Header Navigation -->
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li><a href="#" class="underline">flights</a></li>
+                        <li><a href="#" class="underline">trains</a></li>
+                        <li><a href="#" class="underline">hotels</a></li>
+                        <li><a href="#" class="underline">offers</a></li>
+                        <li><a href="#" class="underline">travel stories</a></li>
+                        <li><a href="#" class="underline">mobile apps</a></li>
+                        <li><a href="#" class="underline">trip planner</a></li>
+                        <!--<li><a href="#" class="underline">help center</a></li>-->
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div>
+        </nav>
+        <!-- End Navigation -->
+    </div>
+    <!-- menu area ends -->
+</header>
+<!-- header area ends -->
+<!-- top search inner starts -->
+<section id="top-search-inner" class="section hotel-search-inner">
+    <div class="container">
+        <div class="row">
+            <form action="">
+                <ul>
+                    <li>
+                        <div class="form-group">
+                            <label for="">where</label>
+                            <input type="text" class="form-control"
+                                   placeholder="Enter City or Airport">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-group">
+                            <label for="">check-in</label>
+                            <input type="text" class="form-control" id="date15" placeholder="Pick a Day">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-group">
+                            <label for="">check-out</label>
+                            <input type="text" class="form-control" id="date16" placeholder="Pick a Day">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-group">
+                            <label for="">Travelling as</label>
+                            <select name="" id="" class="js-example-basic-single15">
+                                <option value="">Solo</option>
+                                <option value="">Couple</option>
+                                <option value="">Business</option>
+                                <option value="">Friends</option>
+                                <option value="">Family</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-group">
+                            <label for="">Guests</label>
+                            <select name="" id="" class="js-example-basic-single16">
+                                <optgroup label="Adult (12+yr)">
+                                    <option value="">1</option>
+                                    <option value="">2</option>
+                                    <option value="">3</option>
+                                    <option value="">4</option>
+                                </optgroup>
+                                <optgroup label="Child (2-11+yr)">
+                                    <option value="">1</option>
+                                    <option value="">2</option>
+                                    <option value="">3</option>
+                                    <option value="">4</option>
+                                </optgroup>
+                                <optgroup label="Rooms">
+                                    <option value="">1</option>
+                                    <option value="">2</option>
+                                    <option value="">3</option>
+                                    <option value="">4</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-group">
+                            <button type="submit" class="submit-btn">search</button>
+                        </div>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+</section>
+<!-- top search inner ends-->
+<!-- search result area starts -->
+<section id="search-results" class="section hotel-filters">
+    <div class="container">
+        <div class="row">
+            <div class="top-part" id="search-result-top">
+                <form action="">
+                    <div class="col-md-5">
+                        <div class="hotel-name-location">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4>Hotel Name</h4>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Searcby Hotel Name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h4>Location</h4>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Enter Location">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hotel-check">
+                                <h4>Amenities</h4>
+                                <div class="form-group">
+                                    <label><input type="checkbox" name="demo" class="targer-input"/>Wifi</label>
+                                </div>
+                                <div class="form-group">
+                                    <label><input type="checkbox" name="demo" class="targer-input"/>pool</label>
+                                </div>
+                                <div class="form-group">
+                                    <label><input type="checkbox" name="demo" class="targer-input"/>parking</label>
+                                </div>
+                                <div class="form-group">
+                                    <label><input type="checkbox" name="demo" class="targer-input"/>Bar and
+                                        lounge</label>
+                                </div>
+                                <div class="form-group">
+                                    <label><input type="checkbox" name="demo" class="targer-input"/>spa</label>
+                                </div>
+                                <div class="form-group">
+                                    <label><input type="checkbox" name="demo" class="targer-input"/>gym</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <h4>Preference</h4>
+                        <div class="switches">
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <div class="toggle-switch">
+                                        <input type="checkbox" name="">
+                                    </div>
+                                </div>
+                                <div class="col-xs-8">
+                                    <p>Free Breakfast</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <div class="toggle-switch">
+                                        <input type="checkbox" name=""/>
+                                    </div>
+                                </div>
+                                <div class="col-xs-8">
+                                    <p>Free Cancellation</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <div class="toggle-switch">
+                                        <input type="checkbox" name=""/>
+                                    </div>
+                                </div>
+                                <div class="col-xs-8">
+                                    <p>Wifi</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="timings">
+                            <h4>Star Rating</h4>
+                            <ul>
+                                <li>
+                                    <a href="#">1 <i class="fa fa-star" aria-hidden="true"></i></a>
+                                    <p>(246)</p>
+                                </li>
+                                <li class="active">
+                                    <a href="#">2 <i class="fa fa-star" aria-hidden="true"></i></a>
+                                    <p>(300)</p>
+                                </li>
+                                <li>
+                                    <a href="#">3 <i class="fa fa-star" aria-hidden="true"></i></a>
+                                    <p>(400)</p>
+                                </li>
+                                <li>
+                                    <a href="#">4 <i class="fa fa-star" aria-hidden="true"></i></a>
+                                    <p>(450)</p>
+                                </li>
+                                <li>
+                                    <a href="#">5 <i class="fa fa-star" aria-hidden="true"></i></a>
+                                    <p>(500)</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="ratings">
+                            <h4>trip advisor ratings</h4>
+                            <div class="form-group">
+                                <label>
+                                    <input type="radio" name="demo" class="targer-input"/>only 5
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label>
+                                    <input type="radio" name="demo" class="targer-input"/>4 and above
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label>
+                                    <input type="radio" name="demo" class="targer-input"/>3 and above
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="#" class="more-filters">more filters <i class="ti ti-arrow-down"
+                                                                         aria-hidden="true"></i></a>
+                    </div>
+                </form>
+            </div>
+            <div class="middle-part">
+                <div class="col-md-9">
+                    <div class="hotel-search-details">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="hotel-img">
+                                    <div class="room-tag"><p>5 room left</p></div>
+                                    <a href="#"><img src="images/single-bed-rooms.jpg" alt=""></a>
+                                    <div class="img-overlay">
+                                        <a data-toggle="modal" href="#demo-id">quick view</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 d-br">
+                                <div class="hotel-details-inner">
+                                    <h3>Hotel Name</h3>
+                                    <p>Near Karolbagh Metro Station , New Delhi</p>
+                                    <ul class="stars">
+                                        <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                    <ul class="facilities">
+                                        <li><a href="#"><img src="images/wifi-1.svg" alt=""></a></li>
+                                        <li><a href="#"><img src="images/parking.svg" alt=""></a></li>
+                                        <li><a href="#"><img src="images/bar.svg" alt=""></a></li>
+                                        <li><a href="#"><img src="images/business.svg" alt=""></a></li>
+                                        <li><a href="#"><img src="images/hotel-food.svg" alt=""></a></li>
+                                        <li><a href="#"><img src="images/swimming-pool.svg" alt=""></a></li>
+                                    </ul>
+                                    <div class="trip media">
+                                        <div class="media-left">
+                                            <div class="logo-area">
+                                                <img src="images/tripadvisor-logo.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <p>5km away from city center</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 d-br">
+                                <div class="all-fares">
+                                    <ul>
+                                        <li><a href="#"><span class="pull-left"><img src="images/cleartrip.png" alt=""></span><span
+                                                class="pull-right"><i class="fa fa-inr"
+                                                                      aria-hidden="true"></i>35629</span></a>
+                                        </li>
+                                        <li><a href="#"><span class="pull-left"><img src="images/easymytrip.png" alt=""></span><span
+                                                class="pull-right"><i class="fa fa-inr"
+                                                                      aria-hidden="true"></i>35629</span></a>
+                                        </li>
+                                        <li><a href="#"><span class="pull-left"><img src="images/makemytrip.png" alt=""></span><span
+                                                class="pull-right"><i class="fa fa-inr"
+                                                                      aria-hidden="true"></i>35629</span></a>
+                                        </li>
+                                        <li><a href="#"><span class="pull-left"><img src="images/spicejet.png"
+                                                                                     alt=""></span><span
+                                                class="pull-right"><i class="fa fa-inr"
+                                                                      aria-hidden="true"></i>35629</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="book-area">
+                                    <ul>
+                                        <li><span class="offer">30% off</span></li>
+                                        <li><span class="cut-price"><i class="fa fa-inr"
+                                                                       aria-hidden="true"></i>4000</span></li>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-md-7">
+                                                    <img src="images/makemytrip.png" alt="">
+                                                </div>
+                                                <div class="col-md-5">
+                                                    <h4><i class="fa fa-inr" aria-hidden="true"></i>3000</h4>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="cstm-btn">book</a>
+                                        </li>
+                                        <li><span class="pay"><i class="fa fa-check-circle-o"></i>Pay at Hotel</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- search result area ends -->
+<!-- footer area starts  -->
+<footer id="footer-area">
+    <div class="container">
+        <div class="row">
+            <div class="footer-area-inner">
+                <div class="col-sm-4">
+                    <div class="footer-area-inner-content">
+                        <h4>about Company</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur esse labore quaerat
+                            quos rerum. Debitis deleniti dolorem eum exercitationem fugit hic illo incidunt inventore
+                            minus officiis porro reiciendis.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, porro!</p>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="footer-area-inner-content">
+                        <h4>quick links</h4>
+                        <ul class="quick-links">
+                            <li><a href="#" class="underline">flights</a></li>
+                            <li><a href="#" class="underline">trains</a></li>
+                            <li><a href="#" class="underline">hotels</a></li>
+                            <li><a href="#" class="underline">offers</a></li>
+                            <li><a href="#" class="underline">travel stories</a></li>
+                            <li><a href="#" class="underline">mobile apps</a></li>
+                            <li><a href="#" class="underline">trip planner</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="footer-area-inner-content">
+                        <h4>get in touch</h4>
+                        <ul class="quick-links">
+                            <li class="media">
+                                <div class="media-left">
+                                    <i class="ti ti-map-alt" aria-hidden="true"></i>
+                                </div>
+                                <div class="media-body">
+                                    <a href="#">Demo Street Name, Demo Place, <br>
+                                        30 Demo street
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <div class="media-left">
+                                    <i class="ti ti-email" aria-hidden="true"></i>
+                                </div>
+                                <div class="media-body">
+                                    <a href="#">demo@example.com
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <div class="media-left">
+                                    <i class="ti ti-mobile" aria-hidden="true"></i>
+                                </div>
+                                <div class="media-body">
+                                    <a href="#">(+91) 123-456-7890
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="footer-area-inner-content">
+                        <h4>newsletter</h4>
+                        <p>Join our newsletter to keep be informed about news.</p>
+                        <form action="">
+                            <div class="form-group">
+                                <input placeholder="Email" value="" name="email" id="email" class="form-control"
+                                       aria-required="true" type="text">
+                                <button type="submit" class="submit-btn">subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="col-sm-6">
+                        <div class="copy-right">
+                            <p>&copy; 2018 Travel and Tourism / All Rights Reserved / developed by <a
+                                    href="http://gowebbi.com" target="_blank">gowebbi.com</a></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <ul class="social-links">
+                            <li><a href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="ti-google" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer area ends  -->
+<!-- flight details modal -->
+<div class="modal fade flight-details-modal" id="demo-id">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="tab-area">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a data-toggle="tab" href="#home">Details</a></li>
+                        <li><a data-toggle="tab" href="#menu1">Location</a></li>
+                        <li><a data-toggle="tab" href="#menu2">Prices</a></li>
+                        <li><a data-toggle="tab" href="#menu3">Reviews</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="home" class="tab-pane fade in active">
+                            <div class="amenities-details">
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <h4>photos</h4>
+                                        <div id="hotel-images-carousel" class="carousel slide details-inner"
+                                             data-ride="carousel">
+                                            <!-- Indicators -->
+                                            <ol class="carousel-indicators details-inner-indicators">
+                                                <li data-target="#hotel-images-carousel" data-slide-to="0"
+                                                    class="active"><img src="images/hotels-1.jpg" alt=""></li>
+                                                <li data-target="#hotel-images-carousel" data-slide-to="1"><img
+                                                        src="images/hotels-2.jpg" alt=""></li>
+                                                <li data-target="#hotel-images-carousel" data-slide-to="2"><img
+                                                        src="images/hotels-3.jpg" alt=""></li>
+                                                <li data-target="#hotel-images-carousel" data-slide-to="3"><img
+                                                        src="images/hotels-4.jpg" alt=""></li>
+                                                <li data-target="#hotel-images-carousel" data-slide-to="4"><img
+                                                        src="images/hotels-2.jpg" alt=""></li>
+                                                <li data-target="#hotel-images-carousel" data-slide-to="5"><img
+                                                        src="images/hotels-3.jpg" alt=""></li>
+                                                <li data-target="#hotel-images-carousel" data-slide-to="6"><img
+                                                        src="images/hotels-4.jpg" alt=""></li>
+                                                <li data-target="#hotel-images-carousel" data-slide-to="7"><img
+                                                        src="images/hotels-2.jpg" alt=""></li>
+                                                <li data-target="#hotel-images-carousel" data-slide-to="8"><img
+                                                        src="images/hotels-3.jpg" alt=""></li>
+                                                <li data-target="#hotel-images-carousel" data-slide-to="9"><img
+                                                        src="images/hotels-4.jpg" alt=""></li>
+                                            </ol>
+                                            <!-- Wrapper for slides -->
+                                            <div class="carousel-inner" role="listbox">
+                                                <div class="item active">
+                                                    <img src="images/hotels-1.jpg" alt="">
+                                                </div>
+
+                                                <div class="item">
+                                                    <img src="images/hotels-2.jpg" alt="">
+                                                </div>
+
+                                                <div class="item">
+                                                    <img src="images/hotels-3.jpg" alt="">
+                                                </div>
+
+                                                <div class="item">
+                                                    <img src="images/hotels-4.jpg" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="images/hotels-2.jpg" alt="">
+                                                </div>
+
+                                                <div class="item">
+                                                    <img src="images/hotels-3.jpg" alt="">
+                                                </div>
+
+                                                <div class="item">
+                                                    <img src="images/hotels-4.jpg" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="images/hotels-2.jpg" alt="">
+                                                </div>
+
+                                                <div class="item">
+                                                    <img src="images/hotels-3.jpg" alt="">
+                                                </div>
+
+                                                <div class="item">
+                                                    <img src="images/hotels-4.jpg" alt="">
+                                                </div>
+                                            </div>
+
+                                            <!-- Left and right controls -->
+                                            <a class="left pro-slide-con" href="#hotel-images-carousel" role="button"
+                                               data-slide="prev">
+                                                <i class="ti-arrow-left"></i>
+                                            </a>
+                                            <a class="right pro-slide-con" href="#hotel-images-carousel" role="button"
+                                               data-slide="next">
+                                                <i class="ti-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="all-amenities">
+                                            <h4>amenities</h4>
+                                            <ul>
+                                                <li><a href="#"><img src="images/wifi-1.svg" alt=""> Wifi</a></li>
+                                                <li><a href="#"><img src="images/parking.svg" alt="">Parking</a></li>
+                                                <li><a href="#"><img src="images/bar.svg" alt="">Bar and Lounge</a></li>
+                                                <li><a href="#"><img src="images/business.svg" alt="">Business
+                                                    Center</a></li>
+                                                <li><a href="#"><img src="images/hotel-food.svg" alt="">Restuarant</a>
+                                                </li>
+                                                <li><a href="#"><img src="images/swimming-pool.svg" alt="">Swimming pool</a>
+                                                </li>
+                                            </ul>
+                                            <a href="#" class="cstm-btn mt-15">view all amenities</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="menu1" class="tab-pane fade">
+                            <div class="location-area">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <h4>location</h4>
+                                        <p>14-A/4, W.E.A, Channa market, Near Metro Pillar No 117, Karolbagh</p>
+                                        <a href="#" class="cstm-btn">view all nearby places</a>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="map-area">
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d471218.3856004664!2d88.0495266783872!3d22.676385755960474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C+West+Bengal!5e0!3m2!1sen!2sin!4v1524137974393" width="800" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="menu2" class="tab-pane fade">
+                            <div class="fares-table prices">
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <tr>
+                                            <th>Provider</th>
+                                            <th>Room Type</th>
+                                            <th>Per Night</th>
+                                            <th colspan="2">Total( for 7 nights and 1 room )</th>
+                                        </tr>
+                                        <tr>
+                                            <td><img src="images/yatra.png" alt=""></td>
+                                            <td>
+                                                <span>Executive Room Only</span>
+                                                <ul class="inline">
+                                                    <li><i class="fa fa-check-circle-o" aria-hidden="true"></i>Free Cancelation</li>
+                                                    <li><i class="fa fa-check-circle-o" aria-hidden="true"></i>Pay at Hotel</li>
+                                                </ul>
+                                            </td>
+                                            <td><span><i class="fa fa-inr" aria-hidden="true"></i>2000</span>
+                                            </td>
+                                            <td><span class="big-price"><i class="fa fa-inr" aria-hidden="true"></i>35629</span>
+                                            </td>
+                                            <td><a href="#" class="cstm-btn">book</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td><img src="images/makemytrip.png" alt=""></td>
+                                            <td>
+                                                <span>Executive Room Only</span>
+                                                <ul class="inline">
+                                                    <li><i class="fa fa-check-circle-o" aria-hidden="true"></i>Free Cancelation</li>
+                                                    <li><i class="fa fa-check-circle-o" aria-hidden="true"></i>Pay at Hotel</li>
+                                                </ul>
+                                            </td>
+                                            <td><span><i class="fa fa-inr" aria-hidden="true"></i>2000</span>
+                                            </td>
+                                            <td><span class="big-price"><i class="fa fa-inr" aria-hidden="true"></i>35629</span>
+                                            </td>
+                                            <td><a href="#" class="cstm-btn">book</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td><img src="images/cleartrip.png" alt=""></td>
+                                            <td>
+                                                <span>Executive Room Only</span>
+                                                <ul class="inline">
+                                                    <li><i class="fa fa-check-circle-o" aria-hidden="true"></i>Free Cancelation</li>
+                                                    <li><i class="fa fa-check-circle-o" aria-hidden="true"></i>Pay at Hotel</li>
+                                                </ul>
+                                            </td>
+                                            <td><span><i class="fa fa-inr" aria-hidden="true"></i>2000</span>
+                                            </td>
+                                            <td><span class="big-price"><i class="fa fa-inr" aria-hidden="true"></i>35629</span>
+                                            </td>
+                                            <td><a href="#" class="cstm-btn">book</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td><img src="images/spicejet.png" alt=""></td>
+                                            <td>
+                                                <span>Executive Room Only</span>
+                                                <ul class="inline">
+                                                    <li><i class="fa fa-check-circle-o" aria-hidden="true"></i>Free Cancelation</li>
+                                                    <li><i class="fa fa-check-circle-o" aria-hidden="true"></i>Pay at Hotel</li>
+                                                </ul>
+                                            </td>
+                                            <td><span><i class="fa fa-inr" aria-hidden="true"></i>2000</span>
+                                            </td>
+                                            <td><span class="big-price"><i class="fa fa-inr" aria-hidden="true"></i>35629</span>
+                                            </td>
+                                            <td><a href="#" class="cstm-btn">book</a></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="menu3" class="tab-pane fade">
+                            <div class="reviews">
+                              <h4>#120 of 795 hotels in Kolkata</h4>
+                                <div class="row">
+                                    <div class="overall-rating">
+                                        <div class="col-md-2">
+                                            <ul class="inline">
+                                                <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-10">
+                                            <h5><a href="#">Overall Rating 4.5 / 5 - Excellent</a></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <tr>
+                                            <td><span><img src="images/cleanliness.svg" alt="">Cleanliness</span></td>
+                                            <td>
+                                                <ul class="inline">
+                                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
+                                                </ul>
+                                            </td>
+                                            <td><span><img src="images/location.svg" alt="">Location</span></td>
+                                            <td>
+                                                <ul class="inline">
+                                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
+                                                </ul>
+                                            </td>
+                                            <td><span><img src="images/rupee.svg" alt="">Value</span></td>
+                                            <td>
+                                                <ul class="inline">
+                                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><span><img src="images/sleep.svg" alt="">Sleep Quality</span></td>
+                                            <td>
+                                                <ul class="inline">
+                                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
+                                                </ul>
+                                            </td>
+                                            <td><span><img src="images/room.svg" alt="">Rooms</span></td>
+                                            <td>
+                                                <ul class="inline">
+                                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
+                                                </ul>
+                                            </td>
+                                            <td><span><img src="images/service.svg" alt="">Service</span></td>
+                                            <td>
+                                                <ul class="inline">
+                                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="bottom-part">
+                                   <div class="row">
+                                       <div class="col-md-6">
+                                           <p>powered by <img src="images/tripadvisor-logo1.png" alt=""></p>
+                                       </div>
+                                       <div class="col-md-6">
+                                           <a href="#" class="cstm-btn">read all reviews</a>
+                                       </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- flight details modal -->
+<!-- jquery -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<!-- bootstrap js -->
+<script src="js/bootstrap.min.js"></script>
+<!-- bootsnav js -->
+<script src="js/bootsnav.js"></script>
+<!-- datetimepicker js -->
+<script src="js/moment.js"></script>
+<script src="js/bootstrap-material-datetimepicker.js"></script>
+<!-- checkbox js -->
+<script src="js/jquery.checkbox-radio-tweak.js"></script>
+<!-- select2 js -->
+<script src="js/select2.min.js"></script>
+<!-- object fit js -->
+<script src="js/ofi.min.js"></script>
+<!--nice scroll js -->
+<script src="js/scroll.js"></script>
+<!-- owl carousel js -->
+<script src="owl-carousel/owl.carousel.min.js"></script>
+<!-- main js-->
+<script src="js/main.js"></script>
+</body>
+</html>
